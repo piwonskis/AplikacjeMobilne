@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="buttonEnter">
+        <item name="android:color">@color/white</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:background">@color/blue</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:text">Enter</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Hello_world">
+        <item name="android:color">@color/blue</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/green</item>
+        <item name="android:text">Hello World</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="imageWithBack">
+
+
+        <item name="android:textSize">40sp</item>
+        <item name="android:background">@color/blue</item>
+        <item name="android:text">Update</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">200dp</item>
+    </style>
+</resources>
