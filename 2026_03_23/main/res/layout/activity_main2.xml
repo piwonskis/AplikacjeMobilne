@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a ipsum bibendum, pharetra magna non, venenatis velit. Aenean bibendum, libero ut consectetur malesuada, nunc arcu consequat sapien, a pulvinar risus nibh at mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent in ex ultricies, fermentum justo ac, maximus turpis. Nullam fringilla magna pulvinar, fermentum massa eu, sagittis mauris. Aenean sed ante diam. Sed in nisl lectus.
+Vestibulum dapibus risus in leo ullamcorper, pellentesque placerat sem mollis. Aliquam eget rutrum urna. Mauris arcu lectus, sodales quis turpis eget, egestas fermentum arcu. Maecenas vulputate laoreet sodales. Sed a venenatis dui, id pretium risus. Phasellus facilisis quam non neque aliquam dapibus. Suspendisse fringilla risus est, sit amet pellentesque tellus blandit et. Duis nec nisl feugiat, interdum ipsum a, euismod libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac scelerisque est. Phasellus tempor, odio in tincidunt malesuada, leo mi egestas libero, ut efficitur sapien metus id lorem. Cras consequat pretium ipsum in tincidunt. Phasellus suscipit lorem mi, at volutpat nulla lacinia a. Aenean rhoncus sodales orci vel fermentum." />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+</LinearLayout>
