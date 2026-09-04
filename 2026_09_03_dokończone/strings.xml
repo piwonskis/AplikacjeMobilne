@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="game_title">Gra w kości. Autor 00000000000</string>
+    <string name="roll_dice_button">RZUĆ KOŚĆMI</string>
+    <string name="reset_score_button">RESETUJ WYNIK</string>
+    <string name="round_score_label">Wynik tego losowania: </string>
+    <string name="round_score_format">Wynik tego losowania: %1$d</string>
+    <string name="total_score_label">Wynik gry: </string>
+    <string name="total_score_format">Wynik gry: %1$d</string>
+    <string name="dice_image_description">Obraz kości</string>
+</resources>
