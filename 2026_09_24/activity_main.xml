@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Właściwości czcionki"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/rozmiarText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rozmiar: "
+        android:textSize="15sp"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="40"
+        android:min="0"
+        android:progress="20"/>
+
+    <TextView
+        android:id="@+id/witanieText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dzień dobry" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text=">>"
+        android:backgroundTint="@color/green"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+</LinearLayout>
