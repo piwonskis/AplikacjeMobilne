@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/Cornsilk">
+
+    <TextView
+        android:id="@+id/ColorBox"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dobierz kolory suwakami i zapisz przyciskiem" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R"/>
+
+        <SeekBar
+            android:id="@+id/seekBarR"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:min="0"
+            android:max="255"
+            />
+        <TextView
+            android:id="@+id/liczbaR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G"/>
+
+        <SeekBar
+            android:id="@+id/seekBarG"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:min="0"
+            android:max="255"
+            />
+        <TextView
+            android:id="@+id/liczbaG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"/>
+
+        <SeekBar
+            android:id="@+id/seekBarB"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:min="0"
+            android:max="255"
+            />
+        <TextView
+            android:id="@+id/liczbaB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pobierz"
+        android:backgroundTint="@color/Peru"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:layout_gravity="center"
+        />
+</LinearLayout>
